@@ -28,7 +28,7 @@ Secondly, import file 'agentframework' into 'model.py'. The file 'model.py' have
 7. Animanation the model. 
 8. Deifne and implements the agents' action. 
 9. Plot the agents and the environment. 
-10.Do a GUI mdoel. 
+10.Do a GUI model. 
 11.This is title which can modify.
 
 Right click in the file and open the windows Powershell, input the code 'python model.py' and run the model.
