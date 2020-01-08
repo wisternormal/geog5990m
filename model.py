@@ -81,6 +81,7 @@ def update(frame_number):
         matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
 
 
+# do a GUI model
 def run():
     animation = matplotlib.animation.FuncAnimation(fig, update, frames=num_of_iterations, repeat=False, interval=300)
     canvas.draw()
