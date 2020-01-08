@@ -2,7 +2,7 @@
 
 # Introduction
 
-The purpose of this programme is to make a communication between agents and environment. And running an animation model to display and get results.
+The purpose of this programme is to make a communication between agents and environment. Running an animation model to display and get results.
 
 # Installation
 
@@ -10,7 +10,11 @@ Install Spyder (Python 3.7) from Anaconda Navigator 3 in the computer and run Py
 
 # Usage
 
-Firstly, create a python file called 'agentframework.py'. The functions of this python file which included:
+Open the software Anaconda Navigator and select the 'Spyder (Python 3.7)'. Open two python files called 'agentframework.py' and 'model.py'. 'model.py' is the main programme.
+
+The following steps illustrate the functions of python files and the usage to run Python codes.
+
+Firstly, a python file called 'agentframework.py'. The functions of this python file which included:
 
 1. Initilize every agents.
 2. Define two agents distance.
@@ -32,8 +36,9 @@ Secondly, import file 'agentframework' into 'model.py'. The file 'model.py' have
 10. Do a GUI model. 
 11. This is title which can modify.
 
-Right click in the file and open the windows Powershell, input the code 'python model.py' and run the model.
+Thirdly, press and hold 'Shift' button, right click in the file, open the 'windows Powershell', input the code 'python model.py' and run the model.And get results.
+The results of these codes are: many agents in the environment move randomly in the 100x100 units. This is like 'the sheep eating grass', agents represent sheeps and black marks demonstrate the location where sheeps ate the grass.
 
 # License
 
-This project is under the MIT License, please see the LICENSE.txt to check details.
+This project is under the MIT License, please see the 'LICENSE.txt' to check details.
