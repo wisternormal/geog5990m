@@ -1,14 +1,14 @@
-#Python Computer Exercise Assessment 1
+# Python Computer Exercise Assessment 1
 
-#Introduction
+# Introduction
 
 The purpose of this programme is to make a communication between agents and environment. And running an animation model to display and get results.
 
-#Installation
+# Installation
 
 Install Spyder (Python 3.7) from Anaconda Navigator 3 in the computer and run Python codes and files.
 
-#Usage
+# Usage
 
 Firstly, create a python file called 'agentframework.py'. The functions of this python file which included:
 
@@ -34,6 +34,6 @@ Secondly, import file 'agentframework' into 'model.py'. The file 'model.py' have
 
 Right click in the file and open the windows Powershell, input the code 'python model.py' and run the model.
 
-#License
+# License
 
 This project is under the MIT License, please see the LICENSE.txt to check details.
