@@ -74,8 +74,8 @@ def update(frame_number):
         agents[i].share_with_neighbours(neighbourhood)
 
 # plot the agents and the environment
-    matplotlib.pyplot.xlim(0, 100)
-    matplotlib.pyplot.ylim(0, 100)
+    matplotlib.pyplot.xlim(0, 300)
+    matplotlib.pyplot.ylim(0, 300)
     matplotlib.pyplot.imshow(environment)        
     for i in range(num_of_agents):
         matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
@@ -83,7 +83,7 @@ def update(frame_number):
 
 # do a GUI mdoel
 def run():
-    animation = matplotlib.animation.FuncAnimation(fig, update, frames=num_of_iterations, repeat=False, interval=1000)
+    animation = matplotlib.animation.FuncAnimation(fig, update, frames=num_of_iterations, repeat=False, interval=300)
     canvas.draw()
 
 
