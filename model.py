@@ -67,7 +67,7 @@ def update(frame_number):
     
     fig.clear()   
 
-# deifne and implements the agents' action
+# define and implements the agents' action
     for i in range(num_of_agents):
         agents[i].move()
         agents[i].eat()

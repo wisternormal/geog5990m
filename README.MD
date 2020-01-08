@@ -36,4 +36,4 @@ Right click in the file and open the windows Powershell, input the code 'python 
 
 #License
 
-This project is under the MIT License. Please see the LICENSE.txt to check details.
+This project is under the MIT License, please see the LICENSE.txt to check details.
