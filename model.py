@@ -31,7 +31,7 @@ td_xs = soup.find_all(attrs={"class" : "x"})
 fig = matplotlib.pyplot.figure(figsize=(7, 7))
 ax = fig.add_axes([0, 0, 1, 1])
 
-# get the environment from flie
+# get the environment from file
 # f = open('in.txt', newline='')
 f = open('in.txt')
 environment = []
