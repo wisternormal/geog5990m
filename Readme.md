@@ -26,7 +26,7 @@ Secondly, import file 'agentframework' into 'model.py'. The file 'model.py' have
 5. Make the agents from the web data. 
 6. Shuffle the agents list.
 7. Animanation the model. 
-8. Deifne and implements the agents' action. 
+8. Define and implements the agents' action. 
 9. Plot the agents and the environment. 
 10.Do a GUI model. 
 11.This is title which can modify.
