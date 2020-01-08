@@ -1,4 +1,4 @@
-#Python Computer Eoxercise Assessment 1
+#Python Computer Exercise Assessment 1
 
 #Introduction
 
