@@ -67,7 +67,7 @@ def update(frame_number):
     
     fig.clear()   
 
-# deifne and implements the agents' action
+# define and implements the agents' action
     for i in range(num_of_agents):
         agents[i].move()
         agents[i].eat()
@@ -81,7 +81,7 @@ def update(frame_number):
         matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
 
 
-# do a GUI mdoel
+# do a GUI model
 def run():
     animation = matplotlib.animation.FuncAnimation(fig, update, frames=num_of_iterations, repeat=False, interval=300)
     canvas.draw()
