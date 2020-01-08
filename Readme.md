@@ -34,4 +34,5 @@ Secondly, import file 'agentframework' into 'model.py'. The file 'model.py' have
 Right click in the file and open the windows Powershell, input the code 'python model.py' and run the model.
 
 #License
+
 This project is under the MIT License. Please see the LICENSE.txt to check details.
