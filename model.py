@@ -15,7 +15,7 @@ import matplotlib
 matplotlib.use('TkAgg') 
 
 
-# using this to get agents form the web
+# using this to get agents from the web
 import requests
 import bs4
 
@@ -27,7 +27,7 @@ td_ys = soup.find_all(attrs={"class" : "y"})
 td_xs = soup.find_all(attrs={"class" : "x"})
 
 
-# initialize animination
+# initialize animation
 fig = matplotlib.pyplot.figure(figsize=(7, 7))
 ax = fig.add_axes([0, 0, 1, 1])
 
@@ -62,7 +62,7 @@ for i in range(num_of_agents):
 random.shuffle(agents)
 
 
-# animanation the model
+# animation the model
 def update(frame_number):
     
     fig.clear()   
