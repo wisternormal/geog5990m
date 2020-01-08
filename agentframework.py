@@ -21,7 +21,7 @@ class Agent:
 		self.store = 0 # We'll come to this in a second.
 
 
-# define tow agents' distance
+# define two agents' distance
 	def distance_between(self,agent):
 	    return ((self.x - agent.x)**2 +(self.y - agent.y)**2)**0.5
 
