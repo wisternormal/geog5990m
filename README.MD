@@ -1,6 +1,6 @@
 # Python Computer Exercise Assessment 1
 
-# Introduction
+## Introduction
 
 The purpose of this programme is to make a communication between agents and environment. Running an animation model to display and get results.
 
