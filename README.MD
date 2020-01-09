@@ -34,10 +34,10 @@ Secondly, import file 'agentframework' into 'model.py'. The file 'model.py' have
 8. Define and implements the agents' action.
 9. Plot the agents and the environment. 
 10. Do a GUI model. 
-11. This is title which can modify.
 
-Thirdly, holding 'Shift' button, right click in the file, open the 'windows Powershell', input the code 'python model.py', run the model and get results.
-The results of these codes: many agents in the environment move randomly in the 100x100 units. This is like 'the sheep eating grass', agents represent sheeps and black marks demonstrate the location where sheeps ate the grass. Once the agents move, it has black marks.
+Thirdly, holding 'Shift' button, right click in the file, open the 'windows Powershell'. Input the code 'python model.py', run the model and get results.
+The result: many agents in the environment move randomly in the 100x100 units. 
+This is like 'the sheep eating grass', agents represent sheeps and black marks demonstrate the trace where sheeps have eaten grass. Once the agents move, there are many trace would be illustrated.
 
 # License
 
