@@ -5,7 +5,7 @@ class Agent:
 
 	"""docstring for Agent"""
 
-# initilize every agents
+# initilize each agent
 	def __init__(self,environment,agents,x,y):
 		if (y == None):
 			self.y = random.randint(0,99)
